@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UTS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
         * {
             box-sizing: border-box;
@@ -23,7 +24,8 @@
             padding: 10px;
             border-radius: 5px;
         }
-        .media{
+
+        .media {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             border-radius: 5px;
             height: 80px;
@@ -32,17 +34,20 @@
             background-position: center;
             background-size: cover;
         }
-        .box-1{
+
+        .box-1 {
             grid-row-start: 1;
             grid-row-end: 4;
         }
-        .box-1 .media{
+
+        .box-1 .media {
             width: 100%;
             height: 200px;
             margin-bottom: 25px;
             background-image: url();
         }
-        ul{
+
+        ul {
             list-style: none;
             display: flex;
             box-shadow: 0 0 17px 3px rgba(0, 0, 0, 0.1);
@@ -52,58 +57,90 @@
             background-color: rgba(41, 72, 248, 0.778);
             padding: 15px;
         }
-        li{
+
+        li {
             padding: 10px;
         }
-        body{
+
+        body {
             margin: 0;
             font-family: Arial, sans-serif;
             font-size: 14px;
         }
+
         a {
             text-decoration: none;
             color: #000;
         }
+        
+        i {
+            font-size: x-large;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        p {
+            margin-bottom: 10px;
+            padding: auto;
+        }
+
+        p {
+            margin-left: 10px;
+        }
+
         @media only screen and (max-width: 768px) {
-            .container, ul{
+
+            .container,
+            ul {
                 display: block;
             }
-        }    
-        .box-1 > p , .box-1> h2{
+        }
+
+        .box-1>p,
+        .box-1>h2 {
             padding-left: 10px;
         }
-        .box-2 .media{
-            background-image: url('https://fahram.dev/image-series/Kwbt4SxI8h1SZjjaXTmazk9dotIMbnu2AIoHwvYO.png');
+
+        .box-2 .media {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn4YKTtBvvIX3Nl12PtdyPzAYDAH9j6aB4gg&s');
         }
-       .box-3 .media{
+
+        .box-3 .media {
             background-image: url('https://fahram.dev/image-series/7zwBXif8OMscfnSr14mFcmoJDf5vBQwuFM6i7mLa.png');
-       }
-       .box-4 .media{
-            background-image: url('https://fahram.dev/image-series/IXeKkRhqRVx1GqJc3kLos2hxbqFAilEIN12hmPm8.jpg');
-       }
-       .box-5 .media{
-            background-image: url('https://fahram.dev/image-series/j2OJHpLVnbbdjvtDSzG2BqPQtLwzI4WMHOPYZZZ3.png');
-       }
-       .box-5 .media{
-            background-image: url('https://fahram.dev/image-series/j2OJHpLVnbbdjvtDSzG2BqPQtLwzI4WMHOPYZZZ3.png');
-       }
-       .box-6 .media{
-            background-image: url('https://fahram.dev/image-series/NlWXIh3jqXVIgKxRAIkBtoaa4EqHiicXcUGdPXmC.webp');
-       }
-       .box-7 .media{
-            background-image: url('https://fahram.dev/image-series/Dkic0YIEGs7xqYGbYzBNHnInDnBVa9OZLMrqml81.jpg');
-       }
+        }
+
     </style>
 </head>
 
 <body>
     <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Course</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">About</a></li>
     </ul>
+    <div class="container">
+        <div class="box-1">
+            <div class="media"></div>
+            <h2>Profile</h2>
+            <p>my name achmad maulana ichsan.you can call me maulana</p>
+            <button><a href="https://wa.me/087819845197"><i class="bi bi-whatsapp"></i></a></button>
+            <button><a href="https://instagram.com/a.iichsan"> <i class="bi bi-instagram"></i></button>
+            </a>
+            <button><i class="bi bi-facebook"></i></button>
+            <button><a href="mailto:ichsanachmadmaulana@gmail.com"><i class="bi bi-envelope-at"></i></a></button>
+        </div>
+        <div class="box-2">
+            <div class="media"></div>
+            <h2>Education</h2>
+            <p>MA Nurul Ali Sempu</p>
+
+        </div>
+        <div class="box-3">
+            <div class="media"></div>
+            <h2>Experience</h2>
+            <p>Content</p>
+        </div>
 </body>
 
 </html>
