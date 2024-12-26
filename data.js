@@ -27,7 +27,7 @@ const teams = [
             },
             {
                 "name" : "whatsapp",
-                "link" : "https://wa.me/087819845197"
+                "link" : "https://wa.me/+6287819845197"
             },
             {
                 "name" : "globe",
