@@ -1,7 +1,7 @@
 const teams = [ 
     {
         "name": "Muhammad Khaidir Fahram",
-        "email": "khaidir@fahram.com",
+        "email": "muhammadkhaidirfahram@gmail.com",
         "image": "https://fahram.com//img/profile-photos/jzZj0jPuEKTWwY9a8lxo7pQhA29zxFpVQd7xl4BZ.jpg",
         "link" : [
             {
@@ -44,7 +44,7 @@ const teams = [
     {
         "name": "Naufal Laudza",
         "email": "naufallaudza194@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://www.fahrschule-lowride.de/upload/resized/resized_6385fe8cdb04b38bf3f90785_3c540ebf4de93f908cf2c8c4becd2e33cb20fd90541d042a6fb16ff74162ce61_644a32dd.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -59,7 +59,7 @@ const teams = [
     {
         "name": "Rozak Al Baidawi",
         "email": "rozakalbaidawi@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://www.fahrschule-lowride.de/upload/resized/resized_6385fe8cdb04b38bf3f90785_3c540ebf4de93f908cf2c8c4becd2e33cb20fd90541d042a6fb16ff74162ce61_644a32dd.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -74,7 +74,7 @@ const teams = [
     {
         "name": "Fredo pradana",
         "email": "fredopradana72@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://www.fahrschule-lowride.de/upload/resized/resized_6385fe8cdb04b38bf3f90785_3c540ebf4de93f908cf2c8c4becd2e33cb20fd90541d042a6fb16ff74162ce61_644a32dd.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -89,7 +89,7 @@ const teams = [
     {
         "name": "Hanif Dwi Novario",
         "email": "hanifdn05@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://www.fahrschule-lowride.de/upload/resized/resized_6385fe8cdb04b38bf3f90785_3c540ebf4de93f908cf2c8c4becd2e33cb20fd90541d042a6fb16ff74162ce61_644a32dd.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -104,7 +104,7 @@ const teams = [
     {
         "name": "Muhammad Fikri Firdaus",
         "email": "mfikrif06@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://www.fahrschule-lowride.de/upload/resized/resized_6385fe8cdb04b38bf3f90785_3c540ebf4de93f908cf2c8c4becd2e33cb20fd90541d042a6fb16ff74162ce61_644a32dd.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -119,7 +119,7 @@ const teams = [
     {
         "name": "Muhammad Sandi Nourman",
         "email": "sandinourman@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://www.fahrschule-lowride.de/upload/resized/resized_6385fe8cdb04b38bf3f90785_3c540ebf4de93f908cf2c8c4becd2e33cb20fd90541d042a6fb16ff74162ce61_644a32dd.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -134,7 +134,7 @@ const teams = [
     {
         "name": "Marcella Setyaning Putri",
         "email": "msetyaningputri@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://th.bing.com/th/id/OIP.VpPvhSXntNUvmkZzKh_KLgAAAA?w=256&h=256&rs=1&pid=ImgDetMain",
         "link" : [
             {
                 "name" : "instagram",
@@ -149,7 +149,7 @@ const teams = [
     {
         "name": "Rheina Wardiana Hafiroh",
         "email": "rheinawardiana317@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://th.bing.com/th/id/OIP.VpPvhSXntNUvmkZzKh_KLgAAAA?w=256&h=256&rs=1&pid=ImgDetMain",
         "link" : [
             {
                 "name" : "instagram",
@@ -163,7 +163,7 @@ const teams = [
     },
     {
         "name": "Siti Aisyah",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://th.bing.com/th/id/OIP.VpPvhSXntNUvmkZzKh_KLgAAAA?w=256&h=256&rs=1&pid=ImgDetMain",
         "link" : [
             {
                 "name" : "instagram",
@@ -178,7 +178,7 @@ const teams = [
     {
         "name": "Abdulrahman Arafah Sunarto",
         "email": "fahganindo12@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://www.fahrschule-lowride.de/upload/resized/resized_6385fe8cdb04b38bf3f90785_3c540ebf4de93f908cf2c8c4becd2e33cb20fd90541d042a6fb16ff74162ce61_644a32dd.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -193,7 +193,7 @@ const teams = [
     {
         "name": "Muhammad Rivanda Ramdhani",
         "email": "ramdhanirivanda@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://www.fahrschule-lowride.de/upload/resized/resized_6385fe8cdb04b38bf3f90785_3c540ebf4de93f908cf2c8c4becd2e33cb20fd90541d042a6fb16ff74162ce61_644a32dd.png",
         "link" : [
             {
                 "name" : "instagram",
