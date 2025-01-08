@@ -5,17 +5,16 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     width: 90%;
     margin: 100px auto;
 
 }
 
-[class*='box'] {
-    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 8px;
+[class*='box'] > p {
+   margin-top: -5px;
+   margin-bottom: 20px;
 }
 
 .media {
@@ -63,9 +62,8 @@ a {
 
 @media only screen and (max-width: 768px) {
 
-    .container,
-    ul {
-        display: block;
+    .container, ul {
+        grid-template-columns: 1fr;
     }
 }
 
