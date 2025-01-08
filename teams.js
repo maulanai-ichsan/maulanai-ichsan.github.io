@@ -1,4 +1,3 @@
-// teams.js
 const container = document.getElementsByClassName('container')[0];
 function generateBox(team) {
     const box = document.createElement('div');
@@ -8,9 +7,12 @@ function generateBox(team) {
     img.className = "media"
     img.src= team.image
     box.appendChild(img);
-    const name = document.createElement('h3')
+    const name = document.createElement('h4')
     name.innerText = team.name
     box.appendChild(name)
+    const email = document.createElement('p')
+    email.innerText = team.email
+    box.appendChild(email)
     team.link.forEach(link => generateLink(link, box))
 }
 
