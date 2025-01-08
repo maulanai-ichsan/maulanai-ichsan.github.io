@@ -1,7 +1,7 @@
 const teams = [ 
     {
         "name": "Muhammad Khaidir Fahram",
-        "email": "muhammadkhaidirfahram@gmail.com",
+        "email": "khaidir@fahram.com",
         "image": "https://fahram.com//img/profile-photos/jzZj0jPuEKTWwY9a8lxo7pQhA29zxFpVQd7xl4BZ.jpg",
         "link" : [
             {
