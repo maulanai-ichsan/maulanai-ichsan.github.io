@@ -1,6 +1,7 @@
 const teams = [ 
     {
         "name": "Muhammad Khaidir Fahram",
+        "email": "muhammadkhaidirfahram@gmail.com",
         "image": "https://fahram.com//img/profile-photos/jzZj0jPuEKTWwY9a8lxo7pQhA29zxFpVQd7xl4BZ.jpg",
         "link" : [
             {
@@ -19,7 +20,8 @@ const teams = [
     },
     {
         "name": "Achmad Maulana Ichsan",
-        "image": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/7876772858106/Trip%2520Pendakian%2520Gunung%2520Sindoro%2520via%2520kledung%2520By%2520Barameru%2520Adventure%2520Indonesia-2af530b8-eac0-414f-8046-df9eaa57fa13.jpeg?tr=q-60,c-at_max,w-1280,h-720&_src=imagekit",
+        "email": "ichsanachmadmaulana@gmail.com",
+        "image": "axnn.jpg",
         "link" : [
             {
                 "name" : "instagram",
@@ -41,6 +43,7 @@ const teams = [
     },
     {
         "name": "Naufal Laudza",
+        "email": "naufallaudza194@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
@@ -55,6 +58,7 @@ const teams = [
     },
     {
         "name": "Rozak Al Baidawi",
+        "email": "rozakalbaidawi@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
@@ -69,6 +73,7 @@ const teams = [
     },
     {
         "name": "Fredo pradana",
+        "email": "fredopradana72@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
@@ -77,12 +82,13 @@ const teams = [
             },
             {
                 "name" : "globe",
-                "link" : "https://icsan.my.id/"
+                "link" : "https://fredo16.my.id/"
             }
         ]
     },
     {
         "name": "Hanif Dwi Novario",
+        "email": "hanifdn05@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
@@ -97,6 +103,7 @@ const teams = [
     },
     {
         "name": "Muhammad Fikri Firdaus",
+        "email": "mfikrif06@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
@@ -111,6 +118,7 @@ const teams = [
     },
     {
         "name": "Muhammad Sandi Nourman",
+        "email": "sandinourman@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
@@ -125,6 +133,7 @@ const teams = [
     },
     {
         "name": "Marcella Setyaning Putri",
+        "email": "msetyaningputri@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
@@ -139,6 +148,7 @@ const teams = [
     },
     {
         "name": "Rheina Wardiana Hafiroh",
+        "email": "rheinawardiana317@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
@@ -167,6 +177,7 @@ const teams = [
     },
     {
         "name": "Abdulrahman Arafah Sunarto",
+        "email": "fahganindo12@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
@@ -181,11 +192,12 @@ const teams = [
     },
     {
         "name": "Muhammad Rivanda Ramdhani",
+        "email": "ramdhanirivanda@gmail.com",
         "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
         "link" : [
             {
                 "name" : "instagram",
-                "link" : "https://instagram.com/rivanda"
+                "link" : "https://instagram.com/ramdhanirivanda"
             },
             {
                 "name" : "globe",
