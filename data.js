@@ -44,7 +44,7 @@ const teams = [
     {
         "name": "Naufal Laudza",
         "email": "naufallaudza194@gmail.com",
-        "image": "https://www.fahrschule-lowride.de/upload/resized/resized_6385fe8cdb04b38bf3f90785_3c540ebf4de93f908cf2c8c4becd2e33cb20fd90541d042a6fb16ff74162ce61_644a32dd.png",
+        "image": "nopal.jpeg",
         "link" : [
             {
                 "name" : "instagram",
