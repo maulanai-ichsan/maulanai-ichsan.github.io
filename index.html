@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Responsif</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: 90%;
+            margin: 100px auto;
+        }
+
+        [class*='box'] {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .media {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            height: 80px;
+            width: 100px;
+            float: right;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .box-1 {
+            grid-row-start: 1;
+            grid-row-end: 4;
+            
+        }
+
+        .box-1 .media {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 25px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuH0demJFf89yJBj2_oQxQQp-PjsqwXeh1rA&s');
+            
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            box-shadow: 0 0 17px 3px rgba(0, 0, 0, 0.1);
+            top: 0;
+            margin-top: 0;
+            width: 100%;
+            background-color: white;
+            padding: 15px;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            .container,
+            ul {
+                display: block;
+            }
+        }
+
+        .box-1>p,
+        .box-1>h3 {
+            padding-left: 10px;
+        }
+
+        .box-2 .media {
+            background-image: url('https://th.bing.com/th/id/R.e1d424c4b9be7009dd57ef4e7d58e343?rik=EZ8NO5x85jZ0Vg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-NGHwBncyA68%2fUiMm_8b2ZUI%2fAAAAAAAAAnA%2f17OGXCKI4zE%2fs1600%2fLogo%2bHTML5.JPG&ehk=rnVe3RUksYQ4LMnsZ6Xxyf3F5lkj3Br1Eu6vOVCkYh0%3d&risl=&pid=ImgRaw&r=0');
+        }
+
+        .box-3 .media {
+            background-image: url('https://th.bing.com/th/id/OIP.lXTS-ivpkNE8ruOEVQjaGAAAAA?w=474&h=302&rs=1&pid=ImgDetMain');
+        }
+
+        .box-4 .media {
+            background-image: url('https://static.vecteezy.com/system/resources/previews/000/304/787/original/vector-responsive-web-design.jpg');
+        }
+
+        .box-5 .media {
+            background-image: url('https://https://fahram.dev/image-series/R6Mr69ikhSgiHCSb58gx0JyB5rotVMUMP95izn1x.jpg.my.id/js.jpg');
+        }
+
+        .box-6 .media {
+            background-image: url('https://th.bing.com/th/id/OIP.JNXT8kd8CHk5Z-w5FN7lrQHaEc?rs=1&pid=ImgDetMain');
+        }
+
+        .box-7 .media {
+            background-image: url('https://static.vecteezy.com/system/resources/previews/025/270/403/non_2x/github-logo-icon-free-vector.jpg');
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+       <li><a href="/index.html">Home</a></li>
+        <li><a href="/course.html">Course</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portofolio</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/teams.html">Teams</a></li>
+    </ul>
+    <div class="container">
+        <div class="box-1">
+            <div class="media"></div>
+            <h3>LP3I College Banten</h3>
+            <p>LP3I College adalah lembaga pendidikan 2 tahun siap kerja yang dibekali dengan program pendidikan dengan ilmu terapan yang spesifik. Setiap lulusan dari LP3I College akan mendapatkan sertifikasi profesi yang dapat digunakan untuk mendapatkan kerja.</p>
+            <span>1. Bussines</span>
+            <p>A. Digital Bussines Management</p>
+            <p>B. Office Administration Automatization</p>
+            <p>C. Professional Administratif Assistant</p>
+            <span>2. Finance</span>
+            <p>A. Accounting Informatin System</p>
+            <span>3. Technology</span>
+            <p>A. Application Software Enggenering</p>
+                
+        </div>
+        <div class="box-2">
+            <div class="media"></div>
+            <h3>Pengenalan dan Struktur Dasar HTML</h3>
+            <p>Belajar Atribut HTML, Basic Elemen, Teks Terformat, Semantic HTML, Table and List, Link, Image, dan Form</p>
+            
+        </div>
+        <div class="box-3">
+            <div class="media"></div>
+            <h3>Pengenalan Style dan Penulisan CSS</h3>
+            <p>Belajar Cara Menambahkan CSS, Color, Background, Formatting Text, 
+                Text Styling, Box Element, Border, Padding and Margin, Box Shadow & Rounded Corner,
+                 Positioning</p>
+        </div>
+        <div class="box-4">
+            <div class="media"></div>
+            <h3>Layout Responsif</h3>
+            <p>Belajar Meta Viewport, Media Query, Flexbox, and Grid</p>
+        </div>
+        <div class="box-5">
+            <div class="media"></div>
+            <h3>Pengenalan Javascript</h3>
+            <p>Belajar Dasar-dasar Javascript, Browser Object Model, 
+                Document Object Model, Event, Latihan Event & DOM</p>
+        </div>
+        <div class="box-6">
+            <div class="media"></div>
+            <h3>AJAX</h3>
+            <p>Belajar Pengenalan AJAX, Request, Fecth API</p>
+            <p>2 Minggu yang lalu</p>
+        </div>
+        <div class="box-7">
+            <div class="media"></div>
+            <h3>Publish</h3>
+            <p>DNS Server, Instalasi Domain ID, Menggunakan Hosting GitHub Page</p>
+        </div>
+    </div>
+    
+</body>
+
+</html>
